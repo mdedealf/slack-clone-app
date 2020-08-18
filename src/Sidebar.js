@@ -17,14 +17,9 @@ function Sidebar() {
 					</h3>
 				</div>
 				<CreateIcon />
-				<SidebarOption Icon={InsertCommentIcon} title="Threads" />
-				<SidebarOption />
-				<SidebarOption />
-				<SidebarOption />
-				<SidebarOption />
-				<SidebarOption />
-				<SidebarOption />
 			</div>
+				<SidebarOption Icon={InsertCommentIcon} title="Threads" />
+				<SidebarOption Icon="" title="Youtube" />
 		</div>
 	);
 }
